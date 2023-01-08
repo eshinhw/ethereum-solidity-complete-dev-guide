@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/eshinhw/ethereum-inbox-project/issues"
   },
-  "homepage": "https://github.com/eshinhw/ethereum-inbox-project#readme"
+  "homepage": "https://github.com/eshinhw/ethereum-inbox-project#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.2.0",
+    "web3": "^1.8.1"
+  }
 }
