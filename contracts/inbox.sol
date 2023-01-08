@@ -4,11 +4,11 @@ contract Inbox {
     string public message;
 
     function Inbox (string inputMessage) public {
-        this.message = inputMessage;
+        message = inputMessage;
     }
 
     function setMessage (string newMessage) public {
-        this.message = newMessage;
+        message = newMessage;
     }
 
 }
