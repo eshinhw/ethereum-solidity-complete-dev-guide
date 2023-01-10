@@ -9,12 +9,14 @@ let inbox;
 
 beforeEach(async () => {
   accounts = await web3.eth.getAccounts();
-  inbox = await new web3.eth.Contract(JSON.parse(interface)).deploy({ data: bytecode, arguments: ["Hi there!"]}).send({ from: accounts[0], gas: '1000000', })
+  inbox = await new web3.eth.Contract(JSON.parse(interface)) // create a Contract object from web3 instance using the interface from compile.js which compiles the solidity code 
+    .deploy({ data: bytecode, arguments: ["Hi there!"] }) // deploys the contract
+    .send({ from: accounts[0], gas: "1000000" }); // send the contract to network?
 });
 
 describe("Inbox", () => {
   it("deploy a contract", () => {
-    console.log(inbox);
+    assert.ok(inbox.options.address);
   });
 });
 
