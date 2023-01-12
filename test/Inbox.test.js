@@ -19,7 +19,7 @@ describe("Inbox", () => {
     assert.ok(inbox.options.address);
   });
   it("has a default message", async () => {
-    const message = await inbox.methods.message().call(); // reference the inbox contract which has a property called methods which contains message() 
+    const message = await inbox.methods.message().call(); // reference the inbox contract which has a property called methods which contains message() which can be called using call()
   });
 });
 
