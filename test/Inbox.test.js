@@ -6,11 +6,12 @@ const { interface, bytecode } = require("../compile");
 
 let accounts;
 let inbox;
+let INITIAL_MESSAGE = "Hi There!";
 
 beforeEach(async () => {
   accounts = await web3.eth.getAccounts();
   inbox = await new web3.eth.Contract(JSON.parse(interface)) // create a Contract object from web3 instance using the interface from compile.js which compiles the solidity code
-    .deploy({ data: bytecode, arguments: ["Hi there!"] }) // deploys the contract
+    .deploy({ data: bytecode, arguments: [INITIAL_MESSAGE] }) // deploys the contract
     .send({ from: accounts[0], gas: "1000000" }); // send the contract to network?
 });
 
@@ -20,6 +21,7 @@ describe("Inbox", () => {
   });
   it("has a default message", async () => {
     const message = await inbox.methods.message().call(); // reference the inbox contract which has a property called methods which contains message() which can be called using call()
+    assert.equal(message, INITIAL_MESSAGE);
   });
 });
 
