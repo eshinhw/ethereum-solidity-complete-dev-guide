@@ -1,1 +1,2 @@
-# ethereum-inbox-project
+# Ethereum and Solidity: The Complete Developer's Guide
+
