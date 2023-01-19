@@ -23,6 +23,11 @@ describe("Inbox", () => {
     const message = await inbox.methods.message().call(); // reference the inbox contract which has a property called methods which contains message() which can be called using call()
     assert.equal(message, INITIAL_MESSAGE);
   });
+  it("can change the message", async () => {
+    await inbox.methods.setMessage("bye").send({ from: accounts[0] }); // no need to use assert as if something goes wrong, it automatically fails the test
+    const message = await inbox.methods.message().call();
+    assert.equal(message, "bye");
+  });
 });
 
 // Mocha: it, describe, beforeEach
