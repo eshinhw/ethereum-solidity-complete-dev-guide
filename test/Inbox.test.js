@@ -1,7 +1,7 @@
 const assert = require("assert");
 const ganache = require("ganache-cli"); // test local ethereum network
 const Web3 = require("web3"); // upper case for constructor
-const web3 = new Web3(ganache.provider());
+const web3 = new Web3(ganache.provider()); // create an instance of Web3 with provider injection
 const { interface, bytecode } = require("../compile");
 
 let accounts;
