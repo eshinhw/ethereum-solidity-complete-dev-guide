@@ -13,6 +13,14 @@
 
 ### What is Ethereum?
 
+- There are Ethereum networks which are used to transfer money and store data.
+- There are many different Ethereum networks.
+- Each Ethereum network consists of one or more nodes.
+- Each node in an Ethereum network is a machine running an ethereum client.
+- Anyone can run a node in the network.
+- Each node can contain a full copy of the blockchain.
+- The 'Blockchain' is a database that stores a record of every transaction that has ever taken place.
+
 
 
 ## Section 2: Smart Contracts with Solidity
