@@ -24,7 +24,7 @@
 ### How to Interact with Ethereum Networks
 
 - Developers can use a library called **web3.js** which can be tought of as a portal/window to Ethereum networks. `web3.js` allows us to send money, store data, deploy contracts or whatever we want to do on the network.
-- Consumers can use **Metamask** or **Mist Browser** to interact with the network. 
+- Consumers can use **Metamask** or **Mist Browser (abandoned in 2019)** to interact with the network. 
 - **Metamask** is a Chrome extension for regular users who want to use the Ethereum network. 
 - **Mist browser** was a decentralized app on the Ethereum network from 2015 to 2019. Mist was the first browser that allowed users to browse dApps, and it had an Ethereum wallet built in. It was also the first desktop crypto wallet with a graphical user interface (GUI). Mist was deprecated in March 2019 after developers decided other browser developers and wallet makers were better able to create products for this quickly evolving space.
 
