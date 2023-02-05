@@ -1,6 +1,20 @@
 # Ethereum and Solidity: The Complete Developer's Guide
 
 ## Section 1: What is Ethereum?
+
+### A Short History of Ethereum
+
+- "Bitcoin: A Peer-to-Peer Electronic Cash System" written and released by Satoshi Nakamoto on October 31, 2008.
+- Only purpose of bitcoin is to enable financial transactions, sending money from Person A to Person B.
+- People started expanding the idea of transferring currencies to other types of exchanges as well.
+- "Ethereum: The Ultimate Smart Contract and Decentralized Application Platform" released by Vitalik Buterin on December 2013.
+- Introduces the idea of 'Smart Contracts' as an entity that can send and receive currency, beyond just humans.
+- Smart Contracts are operated on a blockchain network which can be used to create more advanced applications.
+
+### What is Ethereum?
+
+
+
 ## Section 2: Smart Contracts with Solidity
 - Rinkeby Network contains Infura node.
 - Infura API is a public API which provides access to Infura node which is hosted by Rinkeby Network.
