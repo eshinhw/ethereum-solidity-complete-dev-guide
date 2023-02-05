@@ -14,7 +14,8 @@
 ### What is Ethereum?
 
 - There are Ethereum networks which are used to transfer money and store data.
-- In reality, there is ONE main Ethereum network that everyone uses for deployment, production of applications. However, there are many other Ethereum networks for different purposes. There are Ethereum networks solely for testing, and even we can create our own private Ethereum networks.
+- In reality, there is ONE main Ethereum network that everyone uses for deployment, production of applications. The main Ethereum network is where Ethereum coins are actually worth something.
+- There are many other Ethereum networks for different purposes. For example, there are Ethereum networks solely for testing, and even we can create our own private Ethereum networks.
 - Each Ethereum network consists of one or more nodes.
 - Each node in an Ethereum network is a machine running an ethereum client. A machine here is any type of computers such as a laptor or a desktop. After we install a Ethereum software on our machines, we can connect to the Ethereum network through the software and become a part of the network.
 - Anyone can run a node in the network.
