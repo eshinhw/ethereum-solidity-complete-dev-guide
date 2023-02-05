@@ -1,6 +1,6 @@
 # Ethereum and Solidity: The Complete Developer's Guide
 
-## Section 1: What is Ethereum?
+## Chapter 1: What is Ethereum?
 
 ### A Short History of Ethereum
 
@@ -29,13 +29,13 @@
 - **Mist browser** was a decentralized app on the Ethereum network from 2015 to 2019. Mist was the first browser that allowed users to browse dApps, and it had an Ethereum wallet built in. It was also the first desktop crypto wallet with a graphical user interface (GUI). Mist was deprecated in March 2019 after developers decided other browser developers and wallet makers were better able to create products for this quickly evolving space.
 
 
-## Section 2: Smart Contracts with Solidity
+## Chapter 2: Smart Contracts with Solidity
 - Rinkeby Network contains Infura node.
 - Infura API is a public API which provides access to Infura node which is hosted by Rinkeby Network.
-## Section 3: Advanced Smart Contracts
-## Section 4: Building Interactive Front-Ends
-## Section 5: Real Projects with Ethereum
-## Section 6: Ethereum Project Infrastructure
-## Section 7: Advanced Multi-Page Front-Ends
-## Section 8: Appendix: Basic React
-## Section 9: Extra
+## Chapter 3: Advanced Smart Contracts
+## Chapter 4: Building Interactive Front-Ends
+## Chapter 5: Real Projects with Ethereum
+## Chapter 6: Ethereum Project Infrastructure
+## Chapter 7: Advanced Multi-Page Front-Ends
+## Chapter 8: Appendix: Basic React
+## Chapter 9: Extra
