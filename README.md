@@ -14,13 +14,19 @@
 ### What is Ethereum?
 
 - There are Ethereum networks which are used to transfer money and store data.
-- There are many different Ethereum networks.
+- In reality, there is ONE main Ethereum network that everyone uses for deployment, production of applications. However, there are many other Ethereum networks for different purposes. There are Ethereum networks solely for testing, and even we can create our own private Ethereum networks.
 - Each Ethereum network consists of one or more nodes.
-- Each node in an Ethereum network is a machine running an ethereum client.
+- Each node in an Ethereum network is a machine running an ethereum client. A machine here is any type of computers such as a laptor or a desktop. After we install a Ethereum software on our machines, we can connect to the Ethereum network through the software and become a part of the network.
 - Anyone can run a node in the network.
 - Each node can contain a full copy of the blockchain.
 - The 'Blockchain' is a database that stores a record of every transaction that has ever taken place.
 
+### How to Interact with Ethereum Networks
+
+- Developers can use a library called **web3.js** which can be tought of as a portal/window to Ethereum networks. `web3.js` allows us to send money, store data, deploy contracts or whatever we want to do on the network.
+- Consumers can use **Metamask** or **Mist Browser** to interact with the network. 
+- **Metamask** is a Chrome extension for regular users who want to use the Ethereum network. 
+- **Mist browser** was a decentralized app on the Ethereum network from 2015 to 2019. Mist was the first browser that allowed users to browse dApps, and it had an Ethereum wallet built in. It was also the first desktop crypto wallet with a graphical user interface (GUI). Mist was deprecated in March 2019 after developers decided other browser developers and wallet makers were better able to create products for this quickly evolving space.
 
 
 ## Section 2: Smart Contracts with Solidity
