@@ -31,7 +31,7 @@
 
 ### Metamask Setup
 
-- We will use Goerli Network to test our codes because working on the main network causes actual money.
+- We will use Goerli Network to run and test our codes because working our codes on the main network costs real money.
 
 
 ## Chapter 2: Smart Contracts with Solidity
