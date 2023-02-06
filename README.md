@@ -37,6 +37,13 @@
 
 - We will use Goerli Network to run and test our codes because working our codes on the main network costs real money.
 
+### Transactions
+
+<p align="center">
+  <img width="200" height="400" src="https://user-images.githubusercontent.com/41933169/217082181-570f59b3-1168-4ee8-bf85-d883c9519fc2.png">
+</p>
+
+
 
 ## Chapter 2: Smart Contracts with Solidity
 - Rinkeby Network contains Infura node.
