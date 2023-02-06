@@ -1,7 +1,7 @@
 # Ethereum and Solidity: The Complete Developer's Guide
 
 <p align="center">
-  <img width="1000" height="500" src="https://user-images.githubusercontent.com/41933169/217077452-339073d6-310a-425e-baab-4e76f5d56fee.jpg">
+  <img width="1000" height="480" src="https://user-images.githubusercontent.com/41933169/217077452-339073d6-310a-425e-baab-4e76f5d56fee.jpg">
 </p>
 
 ## Chapter 1: What is Ethereum?
@@ -42,6 +42,20 @@
 <p align="center">
   <img width="200" height="400" src="https://user-images.githubusercontent.com/41933169/217082181-570f59b3-1168-4ee8-bf85-d883c9519fc2.png">
 </p>
+
+- Transaction object contains:
+  - nonce (nonsense, pointless): How many times the sender has sent a transaction
+  - to: Address of account this money is going to
+  - value: Amount of ether being sent to the target address
+  - gasPrice: Amount of ether the sender is willing to pay per unit gas to get this transaction processed
+  - startGas/gasLimit: Unit of gas that this transaction can consume
+  - v,r,s
+    - Cryptographic pieces of data that can be used to generate the senders account address. 
+    - These data is generated from the sender's private key.
+    - Extremely complex data 
+    - One way process from the sender's private key to v,r,s.
+    - Having v,r,s can't regenerate the sender's private key.
+    - v,r,s are used to create one particular sender's address.
 
 
 
