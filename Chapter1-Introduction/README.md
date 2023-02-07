@@ -2,11 +2,9 @@
 
 - [A Short History of Ethereum](#a-short-history-of-ethereum)
 - [Ethereum Networks?](#ethereum-networks)
-
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
+- [How to Interact with Ethereum Networks](#how-to-interact-with-ethereum-networks)
+- [Metamask Setup](#metamask-setup)
+- [Transactions in Ethereum](#transactions-in-ethereum)
 
 ## A Short History of Ethereum
 
@@ -39,7 +37,7 @@
 
 - We will use Goerli Network to run and test our codes because working our codes on the main network costs real money.
 
-## Ethereum Transactions
+## Transactions in Ethereum
 
 <p align="center">
   <img width="500" height="400" src="https://user-images.githubusercontent.com/41933169/217088718-72eefc4f-faf9-4a66-82cc-b1415aa187fb.png">
