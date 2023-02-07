@@ -1,10 +1,12 @@
 # Chapter 1: What is Ethereum?
 
-- [A Short History of Ethereum](#a-short-history-of-ethereum)
-- [Ethereum Networks](#ethereum-networks)
-- [How to Interact with Ethereum Networks](#how-to-interact-with-ethereum-networks)
-- [Metamask Setup](#metamask-setup)
-- [Transactions in Ethereum](#transactions-in-ethereum)
+- [Chapter 1: What is Ethereum?](#chapter-1-what-is-ethereum)
+  - [A Short History of Ethereum](#a-short-history-of-ethereum)
+  - [Ethereum Networks](#ethereum-networks)
+  - [How to Interact with Ethereum Networks](#how-to-interact-with-ethereum-networks)
+  - [Metamask Setup](#metamask-setup)
+  - [Transactions in Ethereum](#transactions-in-ethereum)
+  - [Transaction Wait Time](#transaction-wait-time)
 
 ## A Short History of Ethereum
 
@@ -56,3 +58,14 @@
     - One way process from the sender's private key to v,r,s.
     - Having v,r,s can't regenerate the sender's private key.
     - v,r,s are used to create one particular sender's address.
+
+## Transaction Wait Time
+
+- The Blockchain structure is very complicated and complex to understand in nature because it must be complex to replace the current financial systems by solving extremely difficult problems.
+- When a transaction is sent to the network, it goes to one of the particular nodes in the network to be processed. That one particular node communicates with all other nodes in the network .
+- Each node has a copy of the entire blockchain which can be considered as a type of database storing data.
+- A block in a node collects all incoming transactions where a block is a list of transactions from multiple users.
+- A node then runs a validation logic on this newly create block to verify the transactions inside which takes 30 seconds.
+- The validation logic is referred to as mining. The process of mining is complicated.
+
+
