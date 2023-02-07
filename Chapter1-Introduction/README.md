@@ -1,7 +1,7 @@
 # Chapter 1: What is Ethereum?
 
 - [A Short History of Ethereum](#a-short-history-of-ethereum)
-- [Ethereum Networks?](#ethereum-networks)
+- [Ethereum Networks](#ethereum-networks)
 - [How to Interact with Ethereum Networks](#how-to-interact-with-ethereum-networks)
 - [Metamask Setup](#metamask-setup)
 - [Transactions in Ethereum](#transactions-in-ethereum)
