@@ -1,5 +1,9 @@
 # Chapter 1: What is Ethereum?
 
+<p align="center">
+  <img width="1000" height="480" src="https://user-images.githubusercontent.com/41933169/217077452-339073d6-310a-425e-baab-4e76f5d56fee.jpg">
+</p>
+
 ## A Short History of Ethereum
 
 - "Bitcoin: A Peer-to-Peer Electronic Cash System" written and released by Satoshi Nakamoto on October 31, 2008.
