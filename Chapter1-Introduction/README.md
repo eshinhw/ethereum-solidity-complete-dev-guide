@@ -1,10 +1,7 @@
 # Chapter 1: What is Ethereum?
 
-<p align="center">
-  <img width="1000" height="480" src="https://user-images.githubusercontent.com/41933169/217077452-339073d6-310a-425e-baab-4e76f5d56fee.jpg">
-</p>
-
-## Table of Contents
+- [A Short History of Ethereum](#a-short-history-of-ethereum)
+- [Ethereum Networks?](#ethereum-networks)
 
 1. [Introduction](#introduction)
 2. [Some paragraph](#paragraph1)
@@ -20,7 +17,7 @@
 - Introduces the idea of 'Smart Contracts' as an entity that can send and receive currency, beyond just humans.
 - Smart Contracts are operated on a blockchain network which can be used to create more advanced applications.
 
-## What is Ethereum?
+## Ethereum Networks
 
 - There are Ethereum networks which are used to transfer money and store data.
 - In reality, there is ONE main Ethereum network that everyone uses for deployment, production of applications. The main Ethereum network is where Ethereum coins are actually worth something.
