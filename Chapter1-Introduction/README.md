@@ -61,7 +61,7 @@
 
 ## Transaction Wait Time
 
-- The Blockchain structure is very complicated and complex to understand in nature because it must be complex to replace the current financial systems by solving extremely difficult problems.
+- The Blockchain structure is very complicated to understand in nature because it is designed to be complex to replace the current financial systems by solving extremely difficult problems.
 - When a transaction is sent to the network, it goes to one of the particular nodes in the network to be processed. That one particular node communicates with all other nodes in the network .
 - Each node has a copy of the entire blockchain which can be considered as a type of database storing data.
 - A block in a node collects all incoming transactions where a block is a list of transactions from multiple users.
