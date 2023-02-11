@@ -68,4 +68,13 @@
 - A node then runs a validation logic on this newly create block to verify the transactions inside which takes 30 seconds.
 - The validation logic is referred to as mining. The process of mining is complicated.
 
+<p align="center">
+  <img width="500" height="400" src="https://user-images.githubusercontent.com/41933169/218238910-c68389b0-f9f0-4b9c-b734-30ec2020afdd.png">
+</p>
+
+<p align="center">
+  <img width="300" height="300" src="https://user-images.githubusercontent.com/41933169/218238928-8236c26a-3a18-46f7-b16f-a2a6ee68b40e.png">
+</p>
+
+
 
