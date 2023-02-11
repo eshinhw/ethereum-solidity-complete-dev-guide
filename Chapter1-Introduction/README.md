@@ -41,7 +41,7 @@
 ## Transactions in Ethereum
 
 <p align="center">
-  <img width="500" height="400" src="https://user-images.githubusercontent.com/41933169/217088718-72eefc4f-faf9-4a66-82cc-b1415aa187fb.png">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/41933169/217088718-72eefc4f-faf9-4a66-82cc-b1415aa187fb.png">
 </p>
 
 - Transaction object contains:
