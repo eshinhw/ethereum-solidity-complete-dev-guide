@@ -79,7 +79,10 @@
 ## Smart Contracts
 
 - An account controlled by code
-- 
+- Contract Account
+  - Balance: amount of ether this account owns
+  - Storage: data storage for this contract
+  - Code: raw machine code for this contract
 
 
 
