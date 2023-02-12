@@ -6,6 +6,7 @@
 - [Metamask Setup](#metamask-setup)
 - [Transactions in Ethereum](#transactions-in-ethereum)
 - [Transaction Wait Time](#transaction-wait-time)
+- [Smart Contracts](#smart-contracts)
 
 ## A Short History of Ethereum
 
@@ -74,6 +75,11 @@
 <p align="center">
   <img width="300" height="300" src="https://user-images.githubusercontent.com/41933169/218238928-8236c26a-3a18-46f7-b16f-a2a6ee68b40e.png">
 </p>
+
+## Smart Contracts
+
+- An account controlled by code
+- 
 
 
 
