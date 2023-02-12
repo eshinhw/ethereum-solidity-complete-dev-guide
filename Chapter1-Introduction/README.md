@@ -83,6 +83,8 @@
   - Balance: amount of ether this account owns
   - Storage: data storage for this contract
   - Code: raw machine code for this contract
+- Contract accounts reside in one specific individual network while external accounts like Metamask can be used in different networks.
+- 
 
 
 
