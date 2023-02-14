@@ -101,9 +101,9 @@
 ### Compile Solidity
 
 1. Contract Definition written in Solidity
-2. Solidity Compiler
-3-1. Byte code ready for deployment
-3-2. Application Binary Interface (ABI)
+2. Solidity Compiler generates
+  - Byte code ready for deployment
+  - Application Binary Interface (ABI)
 
 
 
