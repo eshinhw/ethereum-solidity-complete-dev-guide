@@ -102,7 +102,7 @@
 
 1. Contract Definition written in Solidity
 2. Solidity Compiler generates **Byte code ready for deployment** and **Application Binary Interface (ABI)**
-3. Application Binary Interface (ABI) works as a interface between JavaScript code and Bytecode converted from Solidity.
+3. Application Binary Interface (ABI) works as a interface between JavaScript code and Bytecode converted from Solidity. JavaScript can't read the Bytecode and JS needs a translator to interpret the Bytecode.
 4. ABI works as a translator of Bytecode for JavaScript.
 
 
