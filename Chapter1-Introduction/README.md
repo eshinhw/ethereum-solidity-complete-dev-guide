@@ -7,6 +7,7 @@
 - [Transactions in Ethereum](#transactions-in-ethereum)
 - [Transaction Wait Time](#transaction-wait-time)
 - [Smart Contracts](#smart-contracts)
+- [Solidity Programming Language](#solidity-programming-language)
 
 ## A Short History of Ethereum
 
@@ -88,5 +89,11 @@
 - On our machine, we create Contract Source Code and deploy it on the network. Then, inside the network, Contract Instance, also known as Contract Account, is created.
 - In OOP terms, Contract Source Code is a class we define. Contract Instances are the instances of the contract class we defined.
 
+## Solidity Programming Language
+
+- Written in .sol files
+- Strongly typed
+- Similar to JavaScript
+- Has several huge, gigantic 'gotchas'
 
 
