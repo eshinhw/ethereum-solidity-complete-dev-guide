@@ -84,7 +84,9 @@
   - Storage: data storage for this contract
   - Code: raw machine code for this contract
 - Contract accounts reside in one specific individual network while external accounts like Metamask can be used in different networks.
-- 
+- There is no communication between the networks.
+- On our machine, we create Contract Source Code and deploy it on the network. Then, inside the network, Contract Instance, also known as Contract Account, is created.
+- In OOP terms, Contract Source Code is a class we define. Contract Instances are the instances of the contract class we defined.
 
 
 
