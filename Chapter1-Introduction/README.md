@@ -91,9 +91,19 @@
 
 ## Solidity Programming Language
 
+### Key Properties of Solidity
+
 - Written in .sol files
 - Strongly typed
 - Similar to JavaScript
 - Has several huge, gigantic 'gotchas'
+
+### Compile Solidity
+
+1. Contract Definition written in Solidity
+2. Solidity Compiler
+3-1. Byte code ready for deployment
+3-2. Application Binary Interface (ABI)
+
 
 
