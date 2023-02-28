@@ -1,12 +1,13 @@
 # Chapter 1: What is Ethereum?
 
-- [Chapter 1: What is Ethereum?](#chapter-1-what-is-ethereum)
-  - [A Short History of Ethereum](#a-short-history-of-ethereum)
-  - [Ethereum Networks](#ethereum-networks)
-  - [How to Interact with Ethereum Networks](#how-to-interact-with-ethereum-networks)
-  - [Metamask Setup](#metamask-setup)
-  - [Transactions in Ethereum](#transactions-in-ethereum)
-  - [Transaction Wait Time](#transaction-wait-time)
+- [A Short History of Ethereum](#a-short-history-of-ethereum)
+- [Ethereum Networks](#ethereum-networks)
+- [How to Interact with Ethereum Networks](#how-to-interact-with-ethereum-networks)
+- [Metamask Setup](#metamask-setup)
+- [Transactions in Ethereum](#transactions-in-ethereum)
+- [Transaction Wait Time](#transaction-wait-time)
+- [Smart Contracts](#smart-contracts)
+- [Solidity Programming Language](#solidity-programming-language)
 
 ## A Short History of Ethereum
 
@@ -42,7 +43,7 @@
 ## Transactions in Ethereum
 
 <p align="center">
-  <img width="500" height="400" src="https://user-images.githubusercontent.com/41933169/217088718-72eefc4f-faf9-4a66-82cc-b1415aa187fb.png">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/41933169/217088718-72eefc4f-faf9-4a66-82cc-b1415aa187fb.png">
 </p>
 
 - Transaction object contains:
@@ -61,11 +62,48 @@
 
 ## Transaction Wait Time
 
-- The Blockchain structure is very complicated and complex to understand in nature because it must be complex to replace the current financial systems by solving extremely difficult problems.
+- The Blockchain structure is very complicated to understand in nature because it is designed to be complex to replace the current financial systems by solving extremely difficult problems.
 - When a transaction is sent to the network, it goes to one of the particular nodes in the network to be processed. That one particular node communicates with all other nodes in the network .
 - Each node has a copy of the entire blockchain which can be considered as a type of database storing data.
 - A block in a node collects all incoming transactions where a block is a list of transactions from multiple users.
 - A node then runs a validation logic on this newly create block to verify the transactions inside which takes 30 seconds.
 - The validation logic is referred to as mining. The process of mining is complicated.
+
+<p align="center">
+  <img width="500" height="400" src="https://user-images.githubusercontent.com/41933169/218238910-c68389b0-f9f0-4b9c-b734-30ec2020afdd.png">
+</p>
+
+<p align="center">
+  <img width="300" height="300" src="https://user-images.githubusercontent.com/41933169/218238928-8236c26a-3a18-46f7-b16f-a2a6ee68b40e.png">
+</p>
+
+## Smart Contracts
+
+- An account controlled by code
+- Contract Account
+  - Balance: amount of ether this account owns
+  - Storage: data storage for this contract
+  - Code: raw machine code for this contract
+- Contract accounts reside in one specific individual network while external accounts like Metamask can be used in different networks.
+- There is no communication between the networks.
+- On our machine, we create Contract Source Code and deploy it on the network. Then, inside the network, Contract Instance, also known as Contract Account, is created.
+- In OOP terms, Contract Source Code is a class we define. Contract Instances are the instances of the contract class we defined.
+
+## Solidity Programming Language
+
+### Key Properties of Solidity
+
+- Written in .sol files
+- Strongly typed
+- Similar to JavaScript
+- Has several huge, gigantic 'gotchas'
+
+### Compile Solidity
+
+1. Contract Definition written in Solidity
+2. Solidity Compiler generates **Byte code ready for deployment** and **Application Binary Interface (ABI)**
+3. Application Binary Interface (ABI) works as a interface between JavaScript code and Bytecode converted from Solidity. JavaScript can't read the Bytecode and JS needs a translator to interpret the Bytecode.
+4. ABI works as a translator of Bytecode for JavaScript.
+
 
 
