@@ -3,7 +3,7 @@
 - [Chapter 0: What is Blockchain?](Chapter0-Blockchain/README.md)
 - [Chapter 1: What is Ethereum?](Chapter1-Introduction/README.md)
 - [Chapter 2: Smart Contracts with Solidity](Chapter2-Solidity-Smart-Contract/README.md)
-- [Chapter 3: Advanced Smart Contracts](Chapter3-Advanced-Smart-Contracts/README.md)
+- [Chapter 3: Advanced Smart Contracts](Chapter3-Advanced-Smart-Contract/README.md)
 
 <!--
 
