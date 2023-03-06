@@ -5,7 +5,7 @@
 - [Chapter 2: Smart Contracts with Solidity](Chapter2-Solidity-Smart-Contract/README.md)
 - [Chapter 3: Advanced Smart Contracts](Chapter3-Advanced-Smart-Contracts/README.md)
 - [Chapter 4: Building Interactive Front-Ends]()
-dafsd
+
 <!--
 
 ## Chapter 4: Building Interactive Front-Ends
